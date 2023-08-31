@@ -14,8 +14,8 @@ export default function Home() {
         </h2>
         <div className="space-x-4 flex items-center">
           <Button>Primary</Button>
-          <Button size="sm">Primary</Button>
-          <Button size="lg">Primary</Button>
+          <Button size="sm">Small</Button>
+          <Button size="lg">Large</Button>
           <Button size="icon">
             <Camera className="h-4 w-4" />
           </Button>

@@ -15,6 +15,7 @@ export default function AccordionDemo() {
           Yes. It adheres to the WAI-ARIA design pattern.
         </AccordionContent>
       </AccordionItem>
+
       <AccordionItem value="item-2">
         <AccordionTrigger>Is it styled?</AccordionTrigger>
         <AccordionContent>
@@ -22,6 +23,7 @@ export default function AccordionDemo() {
           components&apos; aesthetic.
         </AccordionContent>
       </AccordionItem>
+
       <AccordionItem value="item-3">
         <AccordionTrigger>Is it animated?</AccordionTrigger>
         <AccordionContent>
