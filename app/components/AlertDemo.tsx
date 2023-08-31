@@ -5,7 +5,7 @@ import { Bell } from "lucide-react";
 export default function AlertDemo() {
   return (
     <>
-      <Alert>
+      <Alert className="w-[60%]">
         <AlertTitle>
           <Bell className="h-4 w-4" />
           <h5 className="font-medium leading-none tracking-tight">
@@ -18,7 +18,7 @@ export default function AlertDemo() {
         </AlertDescription>
       </Alert>
 
-      <Alert variant="info">
+      <Alert variant="info" className="w-[60%]">
         <AlertTitle>
           <Bell className="h-4 w-4" />
           <h5 className="font-medium leading-none tracking-tight">
@@ -31,7 +31,7 @@ export default function AlertDemo() {
         </AlertDescription>
       </Alert>
 
-      <Alert variant="success">
+      <Alert variant="success" className="w-[60%]">
         <AlertTitle>
           <Bell className="h-4 w-4" />
           <h5 className="font-medium leading-none tracking-tight">
@@ -44,7 +44,7 @@ export default function AlertDemo() {
         </AlertDescription>
       </Alert>
 
-      <Alert variant="warning">
+      <Alert variant="warning" className="w-[60%]">
         <AlertTitle>
           <Bell className="h-4 w-4" />
           <h5 className="font-medium leading-none tracking-tight">
@@ -57,7 +57,7 @@ export default function AlertDemo() {
         </AlertDescription>
       </Alert>
 
-      <Alert variant="danger">
+      <Alert variant="danger" className="w-[60%]">
         <AlertTitle>
           <Bell className="h-4 w-4" />
           <h5 className="font-medium leading-none tracking-tight">
