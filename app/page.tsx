@@ -3,6 +3,7 @@ import AccordionDemo from "./components/AccordionDemo";
 import ButtonDemo from "./components/ButtonDemo";
 import AlertDemo from "./components/AlertDemo";
 import SwitchDemo from "./components/SwitchDemo";
+import { TooltipDemo } from "./components/TooltipDemo";
 
 export default function Home() {
   return (
@@ -34,6 +35,16 @@ export default function Home() {
 
         <div className="flex items-center space-x-4">
           <SwitchDemo />
+        </div>
+      </div>
+
+      <div className="flex flex-col justify-start w-full space-y-2">
+        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          Tooltip
+        </h2>
+
+        <div className="flex items-center">
+          <TooltipDemo />
         </div>
       </div>
 
